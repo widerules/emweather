@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+/*  This file is part of EmWeather.
+
+    EmWeather is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    EmWeather is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with EmWeather.  If not, see <http://www.gnu.org/licenses/>.
+
+	Copyright 2009 Emilie Roberts
+*/
+-->
+
+<TableLayout
+android:id="@+id/root_layout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="#ffffffff"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TableRow
+android:id="@+id/widget33"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+
+<TableLayout
+android:id="@+id/table_icons"
+android:layout_width="fill_parent"
+android:layout_height="240px"
+android:orientation="vertical"
+>
+	<TableRow
+		android:id="@+id/widget30"
+		android:layout_width="fill_parent"
+		android:layout_height="80px"
+		android:orientation="horizontal"
+	>
+
+		<!--  ICON 1  -->
+		<TableLayout
+			android:id="@+id/table_icon_1"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_1"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 1, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_1_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_1_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_1"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_1_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_1_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 1, Col 1 -->
+
+				<!--  Icon 1, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_1_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_1_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_1_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_1_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_1_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_1_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_1_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 1, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 1 -->
+
+		<!--  ICON 2  -->
+		<TableLayout
+			android:id="@+id/table_icon_2"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_2"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 1, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_2_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_2_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_2"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_2_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_2_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 2, Col 1 -->
+
+				<!--  Icon 2, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_2_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_2_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_2_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_2_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_2_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_2_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_2_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 2, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 2 -->
+
+
+		<!--  ICON 3  -->
+		<TableLayout
+			android:id="@+id/table_icon_3"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_3"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 1, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_3_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_3_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_3"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_3_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_3_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 1, Col 1 -->
+
+				<!--  Icon 1, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_3_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_3_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_3_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_3_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_3_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_3_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_3_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 3, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 3 -->
+	</TableRow>
+
+
+	<TableRow
+		android:id="@+id/widget30"
+		android:layout_width="fill_parent"
+		android:layout_height="80px"
+		android:orientation="horizontal"
+	>
+		<!--  ICON 4  -->
+		<TableLayout
+			android:id="@+id/table_icon_4"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_4"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 4, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_4_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_4_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_4"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_4_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_4_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 4, Col 1 -->
+
+				<!--  Icon 4, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_4_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_4_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_4_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_4_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_4_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_4_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_4_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 4, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 4 -->
+
+		<!--  ICON 5  -->
+		<TableLayout
+			android:id="@+id/table_icon_5"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_5"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 5, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_5_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_5_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_5"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_5_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_5_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 2, Col 1 -->
+
+				<!--  Icon 5, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_5_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_5_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_5_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_5_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_5_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_5_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_5_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 5, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 5 -->
+
+
+		<!--  ICON 6  -->
+		<TableLayout
+			android:id="@+id/table_icon_6"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_6"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 6, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_6_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_6_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_6"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_6_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_6_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 1, Col 1 -->
+
+				<!--  Icon 6, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_6_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_6_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_6_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_6_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_6_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_6_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_6_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 6, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 6 -->
+	</TableRow>
+
+
+
+	<TableRow
+		android:id="@+id/widget30"
+		android:layout_width="fill_parent"
+		android:layout_height="80px"
+		android:orientation="horizontal"
+	>
+		<!--  ICON 7  -->
+		<TableLayout
+			android:id="@+id/table_icon_7"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_7"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 7, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_7_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_7_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_7"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_7_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_7_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 7, Col 1 -->
+
+				<!--  Icon 7, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_7_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_7_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_7_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_7_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_7_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_7_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_7_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 7, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 7 -->
+
+		<!--  ICON 8  -->
+		<TableLayout
+			android:id="@+id/table_icon_8"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_8"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 8, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_8_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_8_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_8"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_8_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_8_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 8, Col 1 -->
+
+				<!--  Icon 8, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_8_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_8_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_8_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_8_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_8_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_8_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_8_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 8, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 8 -->
+
+
+		<!--  ICON 9  -->
+		<TableLayout
+			android:id="@+id/table_icon_9"
+			android:layout_width="100px"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:orientation="vertical"
+		>
+			<TableRow
+				android:id="@+id/tablerow_icon_9"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="horizontal"
+			>
+				<!--  Icon 9, Col 1 -->	
+				<TableLayout
+					android:id="@+id/table_icon_9_icon_col"
+					android:layout_width="60px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_9_icon_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="60px"
+						android:orientation="horizontal"
+					>
+						<ImageView
+							android:id="@+id/image_icon_9"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+						></ImageView>
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tablerow_icon_9_icon_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="40px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_9_pop"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="5px"
+							android:textSize="13sp"
+							android:text="POP: "
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 9, Col 1 -->
+
+				<!--  Icon 9, Col 2 -->
+				<TableLayout
+					android:id="@+id/table_icon_9_text_col"
+					android:layout_width="40px"
+					android:layout_height="fill_parent"
+					android:padding="0px"
+					android:orientation="vertical"
+				>
+					<TableRow
+						android:id="@+id/tablerow_icon_9_text_col_1"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_9_day"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:text="Day"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_9_text_col_2"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_9_hi"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ffff0000"
+							android:text="Hi"
+						></TextView>
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tablerow_icon_9_text_col_3"
+						android:layout_width="fill_parent"
+						android:layout_height="26px"
+						android:orientation="horizontal"
+					>
+						<TextView
+							android:id="@+id/text_icon_9_low"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:padding="3px"
+							android:textSize="13sp"
+							android:textColor="#ff0000ff"
+							android:text="Low"
+						></TextView>
+					</TableRow>
+				</TableLayout> <!--  Icon 9, Col 2 -->
+		
+			</TableRow>
+		</TableLayout> <!--  Icon 9 -->
+	</TableRow>
+</TableLayout>
+
+</TableRow>
+
+<TableRow
+android:id="@+id/tablerow_text"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="horizontal"
+>
+<TextView
+android:id="@+id/text_long_summary"
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:padding="10px"
+android:text="TextView"
+>
+</TextView>
+</TableRow>
+
+</TableLayout>
