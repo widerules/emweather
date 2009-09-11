@@ -1,0 +1,21 @@
+Committing version 0.1 Alpha
+
+Changes:
+- Can select any city in Canada
+- Downloads and parses EnvCanada data
+- Mapped to EnvCanada icons
+- Persistant storage for selected city
+- Ability to see full summary
+
+Todo:
+- GUI overhaul! Re-think icon layout
+- Add units (C, etc) to values
+- Add progress bars for internet access
+- Default to trying to get forecast when opening the app
+- If no city is selected, bring up city selection pane when trying to get forecast
+- Remember the last forecast retreived - show if no interent access along with popup text indicating this
+
+
+--Cette ligne, et les suivantes ci-dessous, seront ignorées--
+
+A    emweather

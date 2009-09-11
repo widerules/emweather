@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+/*  This file is part of EmWeather.
+
+    EmWeather is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    EmWeather is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with EmWeather.  If not, see <http://www.gnu.org/licenses/>.
+
+	Copyright 2009 Emilie Roberts
+*/
+-->
+
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<Spinner
+android:id="@+id/spin_prov"
+android:layout_width="230px"
+android:layout_height="43px"
+android:layout_x="82px"
+android:layout_y="17px"
+>
+</Spinner>
+<TextView
+android:id="@+id/label_prov"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Province"
+android:layout_x="12px"
+android:layout_y="23px"
+>
+</TextView>
+<TextView
+android:id="@+id/label_city"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="City"
+android:layout_x="27px"
+android:layout_y="84px"
+>
+</TextView>
+<Spinner
+android:id="@+id/spin_city"
+android:layout_width="230px"
+android:layout_height="43px"
+android:layout_x="82px"
+android:layout_y="73px"
+>
+</Spinner>
+<TextView
+android:id="@+id/label_sitecode"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Site Code:"
+android:layout_x="16px"
+android:layout_y="153px"
+>
+</TextView>
+<TextView
+android:id="@+id/text_sitecode"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="118px"
+android:layout_y="154px"
+>
+</TextView>
+<TextView
+android:id="@+id/text_sitecode_url"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="7px"
+android:layout_y="183px"
+>
+</TextView>
+<Button
+android:id="@+id/button_save"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Save"
+android:layout_x="70px"
+android:layout_y="281px"
+>
+</Button>
+<Button
+android:id="@+id/button_cancel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Cancel"
+android:layout_x="181px"
+android:layout_y="282px"
+>
+</Button>
+</AbsoluteLayout>
