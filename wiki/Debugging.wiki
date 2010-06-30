@@ -11,7 +11,7 @@ If you love EmWeather and want to help me make it better.  There are a couple of
 
 *Secondly*, if you are more familiar with your phone, I would LOVE some debugging info, particularly for crashes.  
 
-If you have the Android SDK installed or android-tools (or a standalone version of adb), after a crash plug your phone in, enable USB debugging and type the following in a terminal window `adb logcat`.  Scroll up until you find the section that has "EmWeather" information (a sample of this is found below), copy that whole section and paste it into a text file and post it on the issues page or email it to me.  This will realllly help me find the error quickly.
+If you have the Android SDK installed or android-tools (or a standalone version of adb), after a crash plug your phone in, enable USB debugging and type the following in a terminal window: `adb logcat`.  Scroll up until you find the section that has "EmWeather" information (a sample of this is found below), copy that whole section and paste it into a text file and post it on the issues page or email it to me.  This will realllly help me find the error quickly.
 
 Thanks and enjoy this lovely program!
 
