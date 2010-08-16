@@ -1,0 +1,15 @@
+#summary What happens when you click on the widgets
+
+= What happens when you click on the widgets =
+
+Having trouble figuring out what happens when you click on the widgets or how to refresh the widget, re-configure the widget, or launch the EmWeather application? 
+
+The widgets in EmWeather are individually configurable.  This means that you can have weather widgets from several different locations on your desktop and they can each have different backgrounds, icon sets, etc.  With all this customization, you will want to be able to tweak the settings until you get it just right.  Also, with the weather widget using up valuable screen real-estate, you don't want to have to add a separate launcher to the desktop in order to launch the full application.  Finally, occasionally you want to be sure the weather you are seeing is the most up-to-date or a network error may have prevented EmWeather from fetching the forecast so your widgets may have "not-available" icons showing.  In these instances, you want to refresh the widget's forecast.
+
+In short, there are three different actions we want to be able to do: re-configure the widget, launch the application, and refresh the widget.  EmWeather's solution to this problem is by allowing you to click, double-click, and triple-click on the widget in order to carry out each of these three actions.  The action each widget will take when clicked, double-clicked, or triple-clicked is customizable in the widget's configuration window.  
+
+The default configuration is:
+ *- Single-click - Refresh Widget
+ *- Double-click - Launch Application
+ *- Triple-click - Reconfigure Widget
+
