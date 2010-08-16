@@ -1,5 +1,7 @@
 #summary How to use automatic location detection
 
+=How to use automatic location detection=
+
 EmWeather features automatic location determination in both with widgets and in the application.  To use it, go into the respective configuration panel (for the app: menu->change city, for the widget: triple-click to open widget configuration or add a new widget), and then click the "auto-detect location".  You will receive a little pop-up telling you if the automatic detection was successful or not.
 
 If it was successful, the drop-down menu boxes should have been updated with your province and city.
