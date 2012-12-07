@@ -4,16 +4,8 @@
 
 Having trouble figuring out what happens when you click on the widgets or how to refresh the widget, re-configure the widget, or launch the EmWeather application? 
 
-The widgets in EmWeather are individually configurable.  This means that you can have weather widgets from several different locations on your desktop and they can each have different backgrounds, icon sets, etc.  With all this customization, you will want to be able to tweak the settings until you get it just right.  Also, with the weather widget using up valuable screen real-estate, you don't want to have to add a separate launcher to the desktop in order to launch the full application.  Finally, occasionally you want to be sure the weather you are seeing is the most up-to-date or a network error may have prevented EmWeather from fetching the forecast so your widgets may have "not-available" icons showing.  In these instances, you want to refresh the widget's forecast.
-
-In short, there are three different actions we want to be able to do: re-configure the widget, launch the application, and refresh the widget.  EmWeather's solution to this problem is by allowing you to click, double-click, and triple-click on the widget in order to carry out each of these three actions.  The action each widget will take when clicked, double-clicked, or triple-clicked is customizable in the widget's configuration window.  
-
-The default configuration is:
- *- Single-click - Refresh Widget
- *- Double-click - Launch Application
- *- Triple-click - Reconfigure Widget
-
+Widgets are now simpler in EmWeather.  When you click on the main area of a widget, or on the text description area of the 4x4 widget, it will launch the EmWeather app, showing you the forecast for the city the widget is configured for.  If you are using the 2x2, 2x4, or 4x4 widget, clicking the gear icon or the refresh icon will launch the configuration menu or refesh the forecast, respectively.
 
 ===4x4 Widget===
 
-The 4x4 widget allows you to click on forecast icons in order to display the full forecast information.  The area that the clicks, double-clicks, and triple-clicks mentioned above are registered in is the text area where you see the full forecast information, ie. the bottom 1/3 of the widget.  Click, double-click, or triple-click right on this text area in order to trigger the actions.
+The 4x4 widget allows you to click on forecast icons in order to display the full forecast information. To launch the main app, click on the large text area with the detailed forecast information (ie. bottom 1/3 of the widget)
