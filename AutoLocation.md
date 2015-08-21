@@ -1,0 +1,7 @@
+# How to use automatic location detection #
+
+EmWeather features automatic location determination in both with widgets and in the application.  To use it, go into the respective configuration panel (for the app: menu->change city, for the widget: triple-click to open widget configuration or add a new widget), and then click the "auto-detect location".  You will receive a little pop-up telling you if the automatic detection was successful or not.
+
+If it was successful, the drop-down menu boxes should have been updated with your province and city.
+
+If it was unsuccessful, it may be because google's geolocation is returning a city name that is different than the one used by environment canada.  More likely is that Android was not able to find your location fast enough.  Try this: open up google-maps and click on "my location" in the menu.  Once it finds your location, go immediately into the EmWeather configuration panel and try auto-detect again.  If this works for you, and you are always having to do it for auto-detection to work, please send me an email and let me know - this is an issue I would like to address in the future and the speed with which I get to it depends on how many people are affected by it.
